@@ -46,6 +46,6 @@ echo "This planet name is {$planet1}, {$planet2} ";
 echo "<br>";
 echo "This planet name is $planet1, $planet2 ";
 echo "<br>";
-printf("This planet name is  %s %s",$planet1, $planet2 );
+printf("This planet name is %s %s %s %s", $planet1,"hi all my friend",$planet1, $planet2 );
 
 ?>
