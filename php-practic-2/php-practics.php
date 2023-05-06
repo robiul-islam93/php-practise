@@ -48,6 +48,8 @@ echo $take;
 echo ("<br>");
 echo ("<br>");
 echo $rupees;
+
+echo ("Imtiaz Ahmed")
 ?>
 
 
