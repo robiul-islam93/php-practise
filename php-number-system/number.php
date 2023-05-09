@@ -31,5 +31,16 @@ echo "<br>";
 
 $fltnm = 52.155;
 printf("%.2f", $fltnm);
+echo "<br>";
+
+$fnm = 21.4215;
+printf("%09.3f", $fnm);
+echo "<br>";
+$ronm = "Robiul";
+$rahnm = "Rahat";
+
+$output = sprintf("my name is %s %s", $rahnm, $ronm);
+
+echo strtoupper ($output);
 
 
