@@ -17,6 +17,21 @@ printf (" The equvirent of %d = %o", 40437, 40437);
 echo "<br>";
 printf (" octal number %o = %d", 020000, 020000);
 echo "<br>";
+$nm = 125;
+$mn = 25;
+$mn *= 2;
+$numb = 21;
+$number =200;
+$txt = "Robiul";
+echo $mn;
+echo "<br>";
+echo "Hi Friend My sister %s Age and %s my age", $number, $mn;
+echo "<br>";
+printf( "Hi Friend My Sister %s Age and My Age %s", $number, $mn);
+echo "<br>";
+printf( 'Hi Friend My Sister %2$s Age and My Age %1$s', $number, $mn);
+echo "<br>";
+echo"<br>";
 //varable shopping
 
 $snm= "sagon hossain";
