@@ -101,3 +101,18 @@ echo "Your Result Is A Grade";
 echo "<br>";
 echo "<br>";
 echo "Congratulation You Are Passed! Or Field";
+
+echo "<br>";
+echo "<br>";
+
+$swc = "10mark";
+switch ( $swc){
+    case "9mark":
+    echo "nine  mark";
+    break;
+    case  8:
+    echo "eight";
+    break;
+    case "10mark":
+    echo "ten mark";
+}
