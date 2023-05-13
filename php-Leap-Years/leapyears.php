@@ -51,5 +51,16 @@ if ($lper % 4==0 && $lper % 100==0 && $lper % 400==0){
 }else{
     echo "{$lper}is not a leap year";
 }
+echo "<br>";
 
+$lpyr=2000;
 
+if($lpyr %4==0 && $lpyr %100==0 && $lpyr % 400==0 ){
+    echo "{$lpyr} is a leap year";
+}elseif($lpyr % 4==0 && $lpyr % 300==0){
+    echo "{$lpyr} is not a leap year";
+}elseif($lpyr %4==0 && $lpyr% 600==0){
+    echo "{$lpyr}is a leap year";
+}else{
+    echo "{$lpyr}is not a leap year";
+}
