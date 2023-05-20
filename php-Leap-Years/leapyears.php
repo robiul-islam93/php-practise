@@ -1,5 +1,5 @@
 <?php
-$year =2040;
+$year =2024;
 if ($year % 4==0 && $year % 100==0 && $year % 800==0){
     echo "{$year} is a leap year";
 }elseif($year % 4==0 && $year % 150==0){
@@ -64,3 +64,37 @@ if($lpyr %4==0 && $lpyr %100==0 && $lpyr % 400==0 ){
 }else{
     echo "{$lpyr}is not a leap year";
 }
+$marknumber = 75;
+switch ($marknumber){
+    case $marknumber>80;
+    echo "your gread A+";
+    break;
+    case $marknumber>70;
+    echo "your gread A";
+    break;
+    case $marknumber>60;
+    echo "your gread A-";
+    break;
+    case $marknumber>50;
+    echo "your gread B";
+    break;
+    case $marknumber>45;
+    echo "your gread C";
+    break;
+    case $marknumber>40;
+    echo "your gread D";
+    break;
+    case $marknumber>33;
+    echo "your gread D";
+    break;
+    case $marknumber>32;
+    echo "your gread F";
+    break;
+    default:
+    echo "ERROR ";
+}
+echo "<br>";
+echo "<br>";
+echo "<br>";
+
+

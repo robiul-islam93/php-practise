@@ -65,7 +65,7 @@ switch($myfavoritecolor){
 echo "<br>";
 echo "<br>";
 
-$marknumber = 70;
+$marknumber = 75;
 switch ($marknumber){
     case $marknumber>80;
     echo "your gread A+";
@@ -100,7 +100,7 @@ echo "<br>";
 echo "Your Result Is A Grade";
 echo "<br>";
 echo "<br>";
-echo "Congratulation You Are Passed! Or Field";
+echo "Congratulation You Are Passed!";
 
 echo "<br>";
 echo "<br>";
@@ -111,8 +111,99 @@ switch ( $swc){
     echo "nine  mark";
     break;
     case  8:
-    echo "eight";
+    echo 8;
     break;
     case "10mark":
     echo "ten mark";
 }
+
+echo "<br>";
+echo "<br>";
+
+$sw = 13;
+$ws = $sw % 2;
+
+switch ($ws){
+    case 0:
+
+        switch ($sw){
+            case $sw>0:
+                echo "$sw is a positive even number";
+                break;
+                case $sw<0:
+                    echo "$sw is a negagive odd number" ;
+                    break;
+        }
+        break;
+        default:
+        switch ($sw){
+            case $sw>0:
+                echo "$sw is a positive odd number";
+                break;
+                case $sw<0:
+                    echo "$sw is a negagive odd number" ;
+        }
+}
+
+echo "<br>";
+echo "<br>";
+switch (true){
+
+    case($ws==0 && $sw>0):
+        echo "$sw is a positive even number";
+        break;
+        case ($ws==1 && $sw>0):
+        echo "$sw is a postive odd number";
+         break;   
+    case($ws==0 && $sw<0):
+        echo "$sw is a negative even number";
+        break;
+        case ($ws==-1 && $sw<0):
+        echo "$sw is a negative odd number";
+
+}
+echo "<br>";
+echo "<br>";
+
+
+$dj = 12;
+$mdr = $dj % 2;
+if ($dj %2==0){
+    echo "even number";
+}else{
+    echo "odd number";
+}
+
+echo "<br>";
+echo "<br>";
+
+
+switch($mdr){
+    case 0:
+
+        switch($dj){
+            case $dj>0:
+                echo "$dj is a positive even number";
+                break;
+                case $dj<0:
+                    echo "$dj is this a positive odd number";
+                    break;
+        }
+        break;
+        default:
+        switch($dj){
+            case $dj<0:
+                echo "$dj is a positive even number";
+                break;
+                case $dj>0:
+                    echo "$dj is this a positive odd number";
+}
+
+}
+
+echo "<br>";
+echo "<br>";
+
+$m = 12;
+$resultt = ($m % 2==0) ? "A" : (($m==11) ? "B" : "C");
+echo $resultt;
