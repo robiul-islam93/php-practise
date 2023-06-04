@@ -1,58 +1,27 @@
 <?php
 
-$Month_name= "march";
-switch($Month_name){
-    case "january":
-        $date = 20+11;
-        echo"It contains $date days.";
-    break;
-    case "february":
-        $date = 20+10;
-        echo"It contains $date days.";
-        break;
-        case "march":
-            $date = 20+11;
-        echo"It contains $date days.";
-            break;
-            case"April":
-                $date = 20+10;
-                echo"It contains $date days.";
-                break;
-            case"may":
-                $date = 20+11;
-                echo"It contains $date days.";
-                break;
-            case"june":
-                $date = 20+10;
-                echo"It contains $date days.";
-                break;
-            case"july":
-                $date = 20+11;
-                echo"It contains $date days.";
-                break;
-            case"august":
-                $date = 20+11;
-                echo"It contains $date days.";
-                break;
-            case"september":
-                $date = 20+10;
-                echo"It contains $date days.";
-                break;
-            case"october":
-                $date = 20+11;
-                echo"It contains $date days.";
-                break;
-            case"november":
-                $date = 20+10;
-                echo"It contains $date days.";
-                break;
-            case"december":
-                $date = 20+11;
-                echo"It contains $date days.";
-                break;
-                default:
-                echo "ERROR";
+
+
+
+
+$monthname = "january";
+
+if($monthname == "january"){
+    echo "It contains 31 days.";
+}elseif($monthname == "february"){
+    echo "It contains 30 days.";
+}elseif($monthname == "march"){
+    echo "It contains 31 days.";
+}elseif($monthname == "april"){
+    echo "It contains 30 days." ;
+}elseif($monthname == "may"){
+    echo "It contains 31 days." ; 
+}elseif ($monthname == "june"){
+    echo "It contains 30 days.";
+}elseif ($monthname == "july"){
+    echo 
 }
+
 
 
 
