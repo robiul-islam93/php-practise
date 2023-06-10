@@ -2,6 +2,23 @@
 //while loops start
 echo "<h1>PHP Loops Practics </h1>";
 echo "<h3>while loops </h3>";
+
+//For loops start
+
+echo "<br>";
+echo "<br>";
+
+
+echo "<h3>For loops </h3>";
+for( $fr = 2; $fr <=20; $fr++){
+    echo "this number is a $fr <br> ";
+}
+
+//For loops end
+
+echo "<br>";
+echo "<br>";
+
 $loops = 1;
 while ($loops<=10){
     echo "Programers Robi: $loops <br>";
@@ -33,18 +50,6 @@ do {
     $do++;
 }while(($do1 <= 10));
 
-//For loops end
-
-echo "<br>";
-echo "<br>";
-
-
-echo "<h3>For loops </h3>";
-for( $fr = 2; $fr <=20; $fr++){
-    echo "this number is a $fr <br> ";
-}
-
-//For loops end
 
 //Foreach start
 

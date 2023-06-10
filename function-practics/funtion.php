@@ -18,15 +18,19 @@ echo "<br>";
 setheight(250);
 echo "<br>";
 setheight(350);
+echo "<br>";
 
-$x = 12;
 
-if (isEven($x)){
-    echo "$x is a even number";
-}else {
-    echo "$x is a odd number";
+
+for($i=0; $i<=10; $i++){
+    if (isEven($i)){
+        echo "$i is a even number";
+    }else {
+        echo "$i is a odd number";
+    }
 }
 
+echo "<br>";
 $foodname = "Pizza";
 $itemnumber = "2 Dish";
 

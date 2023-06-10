@@ -17,6 +17,8 @@ echo "<br>";
 $numberin = ( 12== $n) ? "twelve" : "A Number";
 echo $numberin;
 echo "<br>";
+
+
 if( $n % 2==0){
     echo "even number";
 }
@@ -24,6 +26,8 @@ else{
     echo "odd number";
 }
 echo "<br>";
+
+
 $result =(12==$n) ? "even number" : "odd number";
 echo $result;
 echo "<br>";

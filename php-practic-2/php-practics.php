@@ -49,7 +49,8 @@ echo ("<br>");
 echo ("<br>");
 echo $rupees;
 
-echo ("Imtiaz Ahmed")
-?>
-
+echo ("Imtiaz Ahmed");
+echo "<br>";
+echo ("<br>");
+echo ("<br>");
 

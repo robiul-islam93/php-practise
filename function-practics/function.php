@@ -32,3 +32,5 @@ function sumnumber( int ... $numbers) : int{
     return $result;
 }
 
+
+

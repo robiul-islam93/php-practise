@@ -1,13 +1,33 @@
 <?php
-include_once "php01.php";
 
-// $x = 12;
 
-// if (evenorodd($x)){
-//     echo "$x is a even number";
-// }else {
-//     echo "$x is a odd number";
+//Recursion function start
+
+// function printn($i){
+//     if($i>=10){
+//         return;
+//     }
+//     echo $i;
+//     $i++;
+//     printn($i);
 // }
 
-$x = 5;
-echo "factorial of {$x} is  "  . factorial ($x);
+// printn(1);
+
+//Recursion function end
+
+echo"<br>";
+echo"<br>";
+
+//recursive function start
+
+function recursive($firstnumber , $endnumber , $stepingnumber = 1){
+    if($firstnumber>$endnumber){
+        return;
+    }
+    echo $firstnumber;
+    echo"<br>";
+    $firstnumber+= $stepingnumber;
+    recursive ($firstnumber , $endnumber , $stepingnumber);
+}
+recursive(20 , 50 , 3);
