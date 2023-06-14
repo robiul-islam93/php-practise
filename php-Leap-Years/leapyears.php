@@ -1,13 +1,15 @@
 <?php
-$year =2024;
-if ($year % 4==0 && $year % 100==0 && $year % 800==0){
+
+$year = 2061;
+
+if($year % 4==0 && $year % 100==0 && $year % 800==0){
     echo "{$year} is a leap year";
-}elseif($year % 4==0 && $year % 150==0){
-    echo "{$year} is not a leap year";
+}elseif($year %4==0 && $year %250==0){
+    echo "{$year} is not leap year";
 }elseif($year % 4==0){
-    echo"<h1>{$year} is a leap year</h1>";
+    echo "{$year} is a leap year";
 }else{
-    echo"{$year} is not a leap year";
+    echo "{$year} is not leap year";
 }
 echo "<br>";
 
