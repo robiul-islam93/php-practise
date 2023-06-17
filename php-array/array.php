@@ -37,10 +37,7 @@ echo "I Like " . $car[0] . " , " . $car[1] . " And " . $car[2] ."," . $car[3] . 
     <?php
 
     $placename = array(
-        array("pabna","california"," Bro"),
-        array("dhaka",204,"road"),
-        array("noyakhali",508),
-        array("borisal",506)    
+        array("pabna","california"," Bro")   
     );
 
     echo " I Hate " .$placename[0][0].  " , And I Love " .$placename[0][1] .  $placename[0][2].  ". ";
@@ -50,7 +47,7 @@ echo "I Like " . $car[0] . " , " . $car[1] . " And " . $car[2] ."," . $car[3] . 
 
 
 
-    $array = [
+    $student_name = [
         "Robiul islam",
         "Rahat Malitha",
         "Sagor Hossain",
@@ -60,11 +57,42 @@ echo "I Like " . $car[0] . " , " . $car[1] . " And " . $car[2] ."," . $car[3] . 
         "Rabbi"
     ];
 
-    $n = count($array);
+    $student_name[2] = "Imtiaz Vai";
+    
+    $n = count($student_name);
     for($i=0; $i < $n; $i++){
-        echo $array[$i];
+        echo $student_name[$i];
         echo "<br>";
     }
+
+    $student = array_shift($student_name);
+  //  echo $student;
+    echo "<br>" ;
+
+    $n = count($student_name);
+    for($i=0; $i < $n; $i++){
+        echo $student_name[$i];
+        echo "<br>";
+    }
+
+
+
+    $student_name[] ="Apple";
+    array_push($student_name," DELL");
+
+    $student = array_unshift($student_name);
+    $student = array_push($student_name);
+    // echo $student;
+    echo"<br>";
+
+
+
+    $n = count($student_name);
+    for($i=0; $i < $n; $i++){
+        echo $student_name[$i];
+        echo "<br>";
+    }
+
 
     
 
