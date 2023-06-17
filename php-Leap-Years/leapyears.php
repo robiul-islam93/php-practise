@@ -1,5 +1,49 @@
 <?php
 
+
+for($sum =1, $i =1;  $i<=50; $i++){
+    $sum= $sum + $i;
+ echo $i. "-";
+}
+echo "=" .$sum;
+
+echo "<br>";
+echo "<br>";
+echo "<br>";
+
+
+
+$sum_number = 1;
+$fnishing_number = 50;
+
+for($s=1; $s<=$fnishing_number; $s++){
+    $sum_number=$sum_number+$s;
+    if($s==$fnishing_number){
+        echo $s;
+    }else{
+        echo $s." - ";
+    }
+}
+echo " = " .$sum_number;
+
+$sum = 1;
+$limit = 50;
+
+for($i=1; $i <=$limit; $i++){
+    $sum=$sum +$i;
+    if($i==$limit){
+        echo $i;
+    }else{
+        echo $i ." - ";
+    }
+}
+echo "=". $sum;
+
+echo "<br>";
+echo "<br>";
+echo "<br>";
+
+
 $year = 2061;
 
 if($year % 4==0 && $year % 100==0 && $year % 800==0){
@@ -13,13 +57,17 @@ if($year % 4==0 && $year % 100==0 && $year % 800==0){
 }
 echo "<br>";
 
-$leapyear = 2010;
+
+
+$leapyear = 2012;
 if($leapyear % 4== 0 && ($leapyear % 150 !=0 || $leapyear %600==0)){
-    echo "{$leapyear} is a leap year";
+    echo "<h1>{$leapyear} is a leap year</h1>";
 }else{
     echo "<h1>{$leapyear} is not a leap year</h1>";
 }
 echo "<br>";
+
+
 
 $condition1 = true;
 $condition2 = false;
@@ -55,6 +103,7 @@ if ($lper % 4==0 && $lper % 100==0 && $lper % 400==0){
 }
 echo "<br>";
 
+
 $lpyr=2000;
 
 if($lpyr %4==0 && $lpyr %100==0 && $lpyr % 400==0 ){
@@ -66,8 +115,16 @@ if($lpyr %4==0 && $lpyr %100==0 && $lpyr % 400==0 ){
 }else{
     echo "{$lpyr}is not a leap year";
 }
-$marknumber = 75;
+
+echo "<br>";
+echo "<br>";
+
+$marknumber = 50;
 switch ($marknumber){
+    case $marknumber>100;
+    echo "your gread golden A+ A+ A+ A++";
+    break;
+
     case $marknumber>80;
     echo "your gread A+";
     break;
@@ -90,6 +147,9 @@ switch ($marknumber){
     echo "your gread D";
     break;
     case $marknumber>32;
+    echo "your gread F";
+    break;
+    case $marknumber<32;
     echo "your gread F";
     break;
     default:

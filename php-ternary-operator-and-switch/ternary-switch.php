@@ -1,5 +1,20 @@
 <?php
 
+
+$number = 120;
+
+if($number % 2==0 && $number %  12==0 && $number %  20==0){
+    echo "<h1>{$number} This number is even </h1>";
+}elseif($number % 3==0 && $number % 7==0){
+    echo "<h1>{$number} This number is odd  </h1> " ;
+}elseif($number % 2==0){
+    echo "<h1>{$number} This number is even  </h1> ";
+}else{
+    echo "<h1> {$number}  This number is odd </h1> ";
+}
+echo "<br>";
+echo "<br>";
+
 //ternary operator
 echo"<h1>Working with Ternary Operators and Nested Ternary Operators in PHP</h1>";
 
