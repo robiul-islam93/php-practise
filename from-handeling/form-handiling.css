@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(165, 125, 125);
+}
+
+.form-area {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  box-shadow: 2px 2px 20px rgba(187, 173, 173);
+  padding: 40px 60px;
+  transform: translate(-50%, -50%);
+}
+
+.form-area form input {
+  padding: 5px 10px;
+  margin: 10px;
+  font-size: 15px;
+}

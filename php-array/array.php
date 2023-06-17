@@ -17,12 +17,18 @@ echo "I Like " . $car[0] . " , " . $car[1] . " And " . $car[2] ."," . $car[3] . 
 <body>
     <h4>PHP Associative Arrays</h4>
     <?php 
-    $age = array ("Robiul" => "23" , "Rahat" => "21", "Sagor" => "25");
-    foreach($age as $x => $x_value){
-        echo " my name " .$x. " age " .$x_value;
-        echo "<br>";
+    // $age = array ("Robiul" => "23" , "Rahat" => "21", "Sagor" => "25");
+    // foreach($age as $x => $x_value){
+    //     echo " my name " .$x. " age " .$x_value;
+    //     echo "<br>";
+    // }
+    // echo "<br>";
+
+    $name_age = array ("Robiul Islam" => "22", "Rahat MAlitha" => "22", "Sagor Hossain" => "25");
+    foreach($name_age as $name => $age){
+        echo " My Name Is " . $name  . "  Age:  " . $age;
+        echo"<br>";
     }
-    echo "<br>";
 
     ?>
 
