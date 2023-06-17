@@ -1,39 +1,39 @@
 <?php
 
-// // for loops 
+// for loops 
 
-// for ($i=0; $i<=20; $i+=2){
-//     echo"$i<br>";
-// }
-// echo"<br>";
-// //whilr loops 
+for ($i=0; $i<=20; $i+=2){
+    echo"$i<br>";
+}
+echo"<br>";
+//whilr loops 
 
-// $w= 1;
-// while($w<=30){
-//     echo "$w<br>";
-//      $w++;
-// }
-// echo"<br>";
-// echo"<br>";
+$w= 1;
+while($w<=30){
+    echo "$w<br>";
+     $w++;
+}
+echo"<br>";
+echo"<br>";
 
-// // do...while loops
+// do...while loops
 
-// $d=2;
-// do{
-//     echo "$d<br>";
-//     $d++;
-// }while($d<=40);
+$d=2;
+do{
+    echo "$d<br>";
+    $d++;
+}while($d<=40);
 
-// echo"<br>";
-// echo"<br>";
+echo"<br>";
+echo"<br>";
 
-// //Foreach start
+//Foreach start
 
-// $sector = array("web design","web development","wordpress","ui ux design","graphics design");
-//     foreach($sector as $value){
+$sector = array("web design","web development","wordpress","ui ux design","graphics design");
+    foreach($sector as $value){
 
-//         echo "$value<br>";
-//     }
+        echo "$value<br>";
+    }
 
 
 $sum_number = 1;
