@@ -1,13 +1,21 @@
 <?php
 
+// $first_name = $_POST['name'];
+// $email = $_POST['email'];
+// $password = $_POST['password'];
 
+// echo $first_name;
+// echo "<br>";
+// echo $email;
+// echo "<br>";
+// echo $password;
 
 $first_name = $_POST['name'];
-$email = $_POST['email'];
+$email = $_POST ['email'];
 $password = $_POST['password'];
 
 echo $first_name;
-echo "<br>";
+echo'<br>';
 echo $email;
-echo "<br>";
+echo'<br>';
 echo $password;

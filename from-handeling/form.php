@@ -12,7 +12,7 @@
     <title>Form Handiling</title>
 </head>
 <body>
-    <div class="form-area">
+    <!-- <div class="form-area">
 <form action="form-handiling.php" method="post">
         <label for="name">Name</label>
         <input type="name" name="name"/>
@@ -25,6 +25,22 @@
         <br>
        <input type="Submit">
     </form>
+    </div> -->
+
+    <div class="form-area">
+        <form action="form-handiling.php" method="post">
+            <label for="name">Name</label>
+            <input type="name"  name="name">
+            <br>
+            <label for="">email</label>
+            <input type="email"  name="email">
+            <br>    
+            <label for="">password</label>
+            <input type="password"  name="password">
+            <br>
+            <input type="submit">
+        </form>
     </div>
+
 </body>
 </html>
