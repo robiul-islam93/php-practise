@@ -1,3 +1,4 @@
+
 <?php
 
 
@@ -30,7 +31,7 @@
 
 
 
-$unit = 500;
+$unit = 400;
 
 if($unit>0 && $unit<=50){
     $result = $unit * 0.50;

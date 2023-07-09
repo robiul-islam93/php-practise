@@ -28,7 +28,7 @@ elseif($robimark<$rahatmark){
 }
 echo "<br>";
 
-$mark = 76;
+$mark = 80;
 if($mark>=80){
     $grade = "A+";
 }
@@ -54,9 +54,8 @@ elseif($mark >= 30){
     $grade = "F-";
 }
 
-echo "Your Result Is: ". $grade;
-echo "<br>";
-echo "<h3>Congratulation you are passed! or field</h3>";
+echo "<h2>Your Result Is: $grade</h2>";
+echo "<h3>Congratulation you are passed!</h3>";
 
 $mark = 65;
 

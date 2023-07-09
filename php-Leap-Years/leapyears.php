@@ -44,6 +44,9 @@ echo "<br>";
 echo "<br>";
 
 
+//Finding Out The Month Of Leapyear
+
+
 $year = 2061;
 
 if($year % 4==0 && $year % 100==0 && $year % 800==0){
@@ -57,7 +60,10 @@ if($year % 4==0 && $year % 100==0 && $year % 800==0){
 }
 echo "<br>";
 
+//Finding Out The Month Of Leapyear end
 
+
+//Finding Out The Month Of Leapyear start
 
 $leapyear = 2012;
 if($leapyear % 4== 0 && ($leapyear % 150 !=0 || $leapyear %600==0)){
@@ -66,7 +72,7 @@ if($leapyear % 4== 0 && ($leapyear % 150 !=0 || $leapyear %600==0)){
     echo "<h1>{$leapyear} is not a leap year</h1>";
 }
 echo "<br>";
-
+//Finding Out The Month Of Leapyear end
 
 
 $condition1 = true;
@@ -82,6 +88,8 @@ if ($condition1 && $condition2 && $condition3){
 }
 
 
+
+//Finding Out The Month Of Leapyear start
 
 $lper = 2013;
 
@@ -102,7 +110,10 @@ if ($lper % 4==0 && $lper % 100==0 && $lper % 400==0){
     echo "{$lper}is not a leap year";
 }
 echo "<br>";
+//Finding Out The Month Of Leapyear end
 
+
+//Finding Out The Month Of Leapyear start
 
 $lpyr=2000;
 
@@ -116,8 +127,12 @@ if($lpyr %4==0 && $lpyr %100==0 && $lpyr % 400==0 ){
     echo "{$lpyr}is not a leap year";
 }
 
+
 echo "<br>";
 echo "<br>";
+//Finding Out The Month Of Leapyear end
+
+
 
 $marknumber = 50;
 switch ($marknumber){
